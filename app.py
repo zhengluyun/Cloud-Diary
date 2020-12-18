@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/zhengluyun/Downloads/Cloud Diary/diary.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/zhengluyun/Desktop/Cloud-Diary/diary.db'
 
 db = SQLAlchemy(app)
 
